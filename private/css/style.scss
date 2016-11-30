@@ -25,6 +25,14 @@ $color-2: white;
     
 }
 
+header {
+    background-color:#333333;
+}
+
+section {
+    background-color:#333333;
+}
+
 .top-logo-wrap {
     position:relative;
     width:100%;
@@ -58,10 +66,10 @@ $color-2: white;
 
 .main-image {
     position:relative;
-    width:100%;
+    //width:100%;
     background-image: url("../images/1.jpg");
     height: 600px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center; 
+    background-size: cover
 }
