@@ -55,3 +55,13 @@ $color-2: white;
         color:white;
     }
 }
+
+.main-image {
+    position:relative;
+    width:100%;
+    background-image: url("../images/1.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
