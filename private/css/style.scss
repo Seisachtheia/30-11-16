@@ -19,9 +19,10 @@ $color-2: white;
 
 
 // Your SCSS goes below here
-.html {
+html {
     margin:0;
     padding:0;
+    background-color:#333333;
     
 }
 
@@ -72,4 +73,43 @@ section {
     background-repeat: no-repeat;
     background-position: center; 
     background-size: cover
+}
+
+.content {
+    float:left;
+    width:60%;
+    margin-left:10%;
+    height:100%;
+    background-color:#333333;
+}
+
+.top-content {
+    width:100%;
+    margin:30px 10px 45px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-content-dock {
+    width:100%;
+    padding: 25px 25px;
+}
+
+.content-header-item {
+    //height:400px;
+    //width:calc(100%/3);
+    display:inline-block;
+    background-color:#333333;
+    padding:2em;
+    border: 0.2em solid #505050;
+
+
+    img{
+        height: 92px;
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+        width:164px;
+    }
+
 }
