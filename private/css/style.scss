@@ -93,18 +93,20 @@ section {
 .top-content-dock {
     width:100%;
     padding: 25px 25px;
+    display:inline-block;
+    background-color:#333333;
+    padding:2em;
+    border: 0.2em solid #505050;
 }
 
 .content-header-item {
     //height:400px;
     //width:calc(100%/3);
-    display:inline-block;
-    background-color:#333333;
-    padding:2em;
-    border: 0.2em solid #505050;
+    
 
 
     img{
+        display:block;
         height: 92px;
         background-repeat: no-repeat;
         background-position: center; 
@@ -112,4 +114,10 @@ section {
         width:164px;
     }
 
+}
+
+.post-topic {
+    margin-top:15px;
+    color:darkorange;
+    font-weight:500;
 }
