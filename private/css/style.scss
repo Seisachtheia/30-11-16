@@ -102,7 +102,34 @@ section {
 
 .item-content {
     border: 0.2em solid #505050;
-    padding:25px;
+    padding:28px;
+    max-width:193px;
+
+    a {
+        display:block;
+        padding:10px;
+        text-align:center;
+        text-transform: uppercase;
+        line-height:10px;
+        font-weight:500;
+        font-size:12px;
+        letter-spacing:1px;
+        color:darkorange;
+        margin-top:5px;
+    }
+
+    p{
+        display:block;
+        text-transform: uppercase;
+        text-align:center;
+        margin-top:5px;
+        color:white;
+        font-weight:500;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: arial;
+        
+    }
 }
 
 .item-header {
@@ -115,12 +142,8 @@ section {
         background-position: center; 
         background-size: cover;
         width:164px;
+       
     }
 
 }
 
-.post-topic {
-    margin-top:15px;
-    color:darkorange;
-    font-weight:500;
-}
