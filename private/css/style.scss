@@ -88,6 +88,7 @@ section {
     margin:30px 10px 45px 10px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .top-content-dock {
@@ -96,16 +97,18 @@ section {
     display:inline-block;
     background-color:#333333;
     padding:2em;
-    border: 0.2em solid #505050;
+    
 }
 
-.content-header-item {
+.item-content {
+    border: 0.2em solid #505050;
+    padding:25px;
+}
+
+.item-header {
     //height:400px;
     //width:calc(100%/3);
-    
-
-
-    img{
+      img{
         display:block;
         height: 92px;
         background-repeat: no-repeat;
