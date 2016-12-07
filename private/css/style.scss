@@ -136,11 +136,11 @@ section {
     }
 
     .covered-image {
-    background-size: cover;
-    background-position: center;
-    height:78px;
-    max-width:130px;
-    }
+        background-size: cover;
+        background-position: center;
+        height:78px;
+        max-width:130px;
+        }
 
 }
 
@@ -148,10 +148,10 @@ section {
     clear:both;
 }
 
-.blog-post {
+.post-header {
 
     display:block;
-    
+
     a {
         display:block;
         padding:10px;
@@ -163,6 +163,34 @@ section {
         letter-spacing:1px;
         color:darkorange;
         margin-top:5px;
+    }
+
+    p {
+        margin-top:15px;
+        text-align:center;
+        display:block;
+        font-size: 34px;
+        color:white;
+        font-weight:700;
+        font-style:bold;
+        //width:90%;
+        //margin-left:10%;
+    }
+
+    ul {
+        width:100%;
+        list-style: none;
+        text-align:center;
+        margin-top: 10px;
+
+        li {
+            display:inline-block;
+            text-align:center;
+            margin: 0px 15px;
+            padding:5px;
+            color:lightgray;
+            font-size: 13px;
+        }
     }
 
 }
