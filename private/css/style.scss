@@ -130,11 +130,16 @@ section {
         font-family: arial;
         
     }
+
+    .covered-image {
+    background-size: cover;
+    background-position: center;
+    }
+
 }
 
 .item-header {
-    //height:400px;
-    //width:calc(100%/3);
+    
       img{
         display:block;
         height: 92px;
