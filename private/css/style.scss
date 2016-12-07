@@ -85,7 +85,7 @@ section {
 
 .top-content {
     width:100%;
-    margin:30px 10px 45px 10px;
+    margin:30px 10px 1.7333em 10px;
     display: flex;
     justify-content: space-between;
     
@@ -93,17 +93,18 @@ section {
 
 .top-content-dock {
     width:100%;
-    padding: 25px 25px;
+    padding: 2em 1em;
     display:inline-block;
     background-color:#333333;
-    padding:2em;
+    
     
 }
 
 .item-content {
     border: 0.2em solid #505050;
     padding:28px;
-    max-width:193px;
+    max-width:130px;
+    text-align:center;
 
     a {
         display:block;
@@ -125,9 +126,12 @@ section {
         margin-top:5px;
         color:white;
         font-weight:500;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
         font-family: arial;
+        //min-width: 105px;
+        //max-width: 130px;
+        width:130px;
         
     }
 
@@ -135,21 +139,9 @@ section {
     background-size: cover;
     background-position: center;
     height:78px;
+    max-width:130px;
     }
 
 }
 
-.item-header {
-    
-      img{
-        display:block;
-        height: 92px;
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-size: cover;
-        width:164px;
-       
-    }
-
-}
 
