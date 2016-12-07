@@ -144,4 +144,23 @@ section {
 
 }
 
+.clear {
+    clear:both;
+}
 
+.blog-post {
+
+    a {
+        display:block;
+        padding:10px;
+        text-align:center;
+        text-transform: uppercase;
+        line-height:10px;
+        font-weight:500;
+        font-size:12px;
+        letter-spacing:1px;
+        color:darkorange;
+        margin-top:5px;
+    }
+
+}
